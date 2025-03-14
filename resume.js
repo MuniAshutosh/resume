@@ -15,12 +15,12 @@ const resumeData = {
       month: 4,
       day: 29,
     },
-    yearsOfExperience: '5.5',
+    yearsOfExperience: '5.10',
     summary:
       'Software Engineer with <time id="experience" datetime="2019-04">${data.professionalSummary.experience}</time> years of experience, adept at delivering high-performance, maintainable, and scalable software solutions. Skilled in system architecture, microservices, and distributed systems, with expertise in writing efficient, bug-free code using best industry practices. Proven track record of collaborating with cross-functional teams to ensure seamless integration and deployment in diverse environments. Strong communication skills, with success in agile teams across geographies. Committed to continuous learning and delivering user-friendly, high-quality software.',
   },
   skills: [
-    'Java 11',
+    'Java',
     'Spring Boot',
     'Golang',
     'MongoDB',
@@ -48,13 +48,24 @@ const resumeData = {
   ],
   workExperience: [
     {
+      company: "Lowe's India",
+      logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQHoNPNGRZYG-w/company-logo_100_100/company-logo_100_100/0/1630617454317/lowes_india_logo?e=1750291200&v=beta&t=jeZSNBJRdWwxOVrnAK6WwxVFFkmIv6fn7MfcyloIE3s',
+      position: 'Senior Software Engineer',
+      location: 'Bengaluru, Karnataka, India',
+      period: {
+        start: '2025-02',
+        end: 'Present',
+      },
+      roles: [],
+    },
+    {
       company: 'Dell Technologies',
-      logo: 'https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1743033600&v=beta&t=VXm_7U4ZWGw6a6eEL8RqLgqH-SCfMGoCp_YVsttGczA',
+      logo: 'https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1750291200&v=beta&t=h85QSGFDuqpSX2wOWSJTrrrayUOj6nelqXfSq8CWe6U',
       position: 'Software Engineer 2',
       location: 'Bengaluru, Karnataka, India',
       period: {
         start: '2023-01',
-        end: 'Present',
+        end: '2025-02',
       },
       roles: [
         {
@@ -75,7 +86,7 @@ const resumeData = {
     },
     {
       company: 'Accenture in India',
-      logo: 'https://media.licdn.com/dms/image/v2/D560BAQHbx0URQnbCKg/company-logo_100_100/company-logo_100_100/0/1719978199717/accentureindia_logo?e=1741824000&v=beta&t=FrGE0mZpHCTnkR07zoSgAVH7Gyi51h9aH-R0AecXpXo',
+      logo: 'https://media.licdn.com/dms/image/v2/D560BAQHbx0URQnbCKg/company-logo_100_100/company-logo_100_100/0/1719978199717/accentureindia_logo?e=1750291200&v=beta&t=rrZvm7l9dokrVmqU52wgmZHC1D8V6lcnpHmducCMYFs',
       position: 'Application Development Senior Analyst',
       location: 'Bengaluru, Karnataka, India',
       period: {
@@ -99,7 +110,7 @@ const resumeData = {
     },
     {
       company: 'Tata Consultancy Services',
-      logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=1741824000&v=beta&t=6dn31hrDCue0-gTByUlU2BEUMdNHPbTwCZzeZmr_fF4',
+      logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQGsGR9p4ikS5w/company-logo_100_100/company-logo_100_100/0/1708946550425/tata_consultancy_services_logo?e=1750291200&v=beta&t=S7pRRvEMW4gm64fSyOgkYMKt-ghe_zu-u8svlzTcjqE',
       position: 'Systems Engineer',
       location: 'Bengaluru, Karnataka, India',
       period: {
